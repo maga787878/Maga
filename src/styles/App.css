@@ -11,6 +11,63 @@
     margin-left: auto !important;
     margin-right: auto !important;}}
 @media screen and (max-width: 772px) {
+      div.work {
+        display: inline !important;
+        }}
+
+@media screen and (max-width: 772px) {
+          ul.LIST {
+            display: contents !important;
+            }}
+
+@media screen and (max-width: 772px) {
+              h2.h2 {
+                margin-top: auto !important;
+                font-size: 68px !important;
+                padding-top: 62px !important;
+                }}
+
+@media screen and (max-width: 772px) {
+                  div.About {
+                    height: 220px !important;
+                    }}
+
+@media screen and (max-width: 772px) {
+                  div.contact {
+                    height: 220px !important;
+                    margin-top: auto !important;
+                    }}
+@media screen and (max-width: 772px) {
+                  div.work1 {
+                    height: 220px !important;
+                    }}
+
+@media screen and (max-width: 772px) {
+                      h2.work2 {
+                        padding-top: 62px !important;
+                        margin-top: auto !important;
+                        }}
+@media screen and (max-width: 772px) {
+                  h2.contact2 {
+                    margin-top: auto !important;
+                font-size: 68px !important;
+                padding-top: 62px !important;
+                    }}
+
+
+
+
+@media screen and (max-width: 772px) {
+          div.workcard {
+            margin-top: 30px !important;}}
+@media screen and (max-width: 772px) {
+              div.worktext {
+                text-align: center !important;}}
+@media screen and (max-width: 772px) {
+              div.work2 {
+                margin-top: auto !important;
+              margin-left: -15px !important;}}            
+@media screen and (max-width: 772px) {
   h2.information {
     font-size: 20px !important;
     text-align: center !important;

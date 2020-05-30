@@ -10,6 +10,7 @@ export default function Work() {
           height: "370px",
           boxShadow: "0px 0px 10px 9px #5f6b5ea1",
         }}
+        className="work1"
       >
         <div className="container">
           <h2
@@ -20,6 +21,7 @@ export default function Work() {
               fontSize: "80px",
               textShadow: "0px 1px 8px",
             }}
+            className="work2"
           >
             Work
           </h2>
@@ -33,7 +35,7 @@ export default function Work() {
         </p>
         <br />
         <div
-          className="text-center container navbar navbar-expand-lg  row"
+          className="text-center container navbar navbar-expand-lg  row work"
           style={{ marginLeft: "50px" }}
         >
           <div className="col-7">
@@ -63,7 +65,7 @@ export default function Work() {
           </div>
           <div className="col-5">
             <div
-              class="card-group"
+              class="card-group workcard"
               style={{
                 width: "18rem",
                 boxShadow: "rgba(95, 107, 94, 0.63) 0px 0px 10px 9px",
@@ -87,7 +89,7 @@ export default function Work() {
           </div>
         </div>
         <div
-          className="text-center container navbar navbar-expand-lg  row"
+          className="text-center container navbar navbar-expand-lg  row work2"
           style={{ marginLeft: "50px", marginTop: "15px" }}
         >
           <div className="col-7">
@@ -101,7 +103,7 @@ export default function Work() {
             >
               <div class="card-body">
                 <h5 class="card-title">Json</h5>
-                <p class="card-text">
+                <p class="card-text worktext">
                   Node JS and Express JS. It is written with. <br></br>Click on
                   the link to view the codes
                 </p>

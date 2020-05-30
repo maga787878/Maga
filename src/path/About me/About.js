@@ -13,9 +13,10 @@ export default function About() {
           height: "370px",
           boxShadow: "0px 0px 10px 9px #5f6b5ea1",
         }}
+        className="About"
       >
         <div className="container">
-          <h2 style={{textAlign:"center",marginTop:"50px",paddingTop:"150px", fontSize:"80px",textShadow: "0px 1px 8px"}}>About Me</h2>
+          <h2 style={{textAlign:"center",marginTop:"50px",paddingTop:"150px", fontSize:"80px",textShadow: "0px 1px 8px"} } className="h2">About Me</h2>
         </div>
       </div>
       <div className="container" style={{textShadow:"0px 1px 8px"}}>
@@ -27,7 +28,7 @@ export default function About() {
       </p><br></br>
       <p>I'm a React Frontend web developer , I'm trying to do the best as a software. I'm doing miracles with react js. I have many specialties. my own travel agency company. Photography. and I'm fine in the kitchen. I solve my problems quickly. I know how to set up a new website and improve the old ones.</p>
       <h3>My skills:</h3>
-      <ul className="list-group col-3" style={{textAlign:"center"}}>
+      <ul className="list-group col-3 LIST" style={{textAlign:"center"}}>
   <li className="list-group-item" style={style.li}>React js</li>
   <li className="list-group-item" style={style.li} >React-Redux</li>
   <li className="list-group-item" style={style.li}>Redux-Thunk</li>
