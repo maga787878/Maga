@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react'
 
-export default function Work() {
-  return (
-    <div>
-      <div
+export default function Contact() {
+    return (
+        <div>
+            <div
         style={{
           marginTop: "15px",
           background: "#3d3c5d7a",
@@ -21,15 +21,14 @@ export default function Work() {
               textShadow: "0px 1px 8px",
             }}
           >
-            Work
+            Contact
           </h2>
         </div>
       </div>
       <div className="container" style={{ textShadow: "0px 1px 8px" }}>
-        <h3 style={{ textAlign: "center" }}>My Projects</h3>
+        <h3 style={{ textAlign: "center" }}>Contact</h3>
         <p>
-          From Web Components and to React.JS, Redux, Express.JS and Node.JS
-          Check out my latest web software development portfolio projects.
+        Thank you for losing my contact with me. I love my job and i am ready to do my best. <br></br> Email: Buluddov@gmail.com <br></br> Tel:+994(55)919-02-87
         </p>
         <br />
         <div
@@ -116,6 +115,6 @@ export default function Work() {
           </div>
         </div>
       </div>
-    </div>
-  );
+        </div>
+    )
 }

@@ -1,7 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../img/mlog.png";
-export default function Navi() {
+class Navi extends React.Component {
+  state = {
+    isNavOpen : false
+}
+buttonClicked(){this.setState({isNavOpen : !this.state.isNavOpen})}
+render() {
   return (
     <div id="app">
       <div className="container" >
@@ -22,13 +27,15 @@ export default function Navi() {
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            onClick={this.buttonClicked.bind(this)}
           >
             <span className="navbar-toggler-icon"></span>
           </button>
 
           <div
             className="collapse navbar-collapse"
-            style={{ justifyContent: "flex-end" }}
+            style={{ justifyContent: "flex-end",display: this.state.isNavOpen ? "block" : "none" }}
+           
           >
             <ul className="navbar-nav">
               <li className="nav-item active ">
@@ -53,3 +60,7 @@ export default function Navi() {
     </div>
   );
 }
+}
+
+
+export default Navi;
