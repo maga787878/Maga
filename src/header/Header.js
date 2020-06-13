@@ -1,9 +1,5 @@
-import React from 'react'
-/***********************
-  Header Component
- ***********************/
-
-const Header = props => {
+import React from "react";
+const Header = (props) => {
   return (
     <header id="welcome-section">
       <div className="forest" />
@@ -25,7 +21,6 @@ const Header = props => {
         </div>
       </div>
     </header>
-    
   );
 };
-export default Header
+export default Header;

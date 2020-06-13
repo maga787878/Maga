@@ -84,7 +84,7 @@ const Projects = props => {
             title="Travel wep site."
             img={Travel}
             tech="js css react node"
-            link="https://github.com/maga787878/Octanus-React.git"
+            link="http://octanustravels.cf"
             repo="https://github.com/maga787878/Octanus-React.git"
           >
             <small>

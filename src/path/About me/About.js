@@ -1,7 +1,4 @@
 import React from 'react'
-/***********************
-  About Component
- ***********************/
 const About = props => {
   return (
     <section id="about">

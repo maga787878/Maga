@@ -1,8 +1,6 @@
 import React from 'react'
 import SocialLinks from "./SocialLinks"
 
-
-
 const Contact = props => {
   return (
     <section id="contact">
