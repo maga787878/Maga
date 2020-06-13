@@ -9,11 +9,6 @@ import Contact from "../path/Contact/Contact"
 import Header from '../header/Header'
 import Menu from '../Menu/Menu'
 
-
-/***********************
-  Project Component
- ***********************/
-
 const Project = props => {
   const tech = {
     sass: 'fab fa-sass',
@@ -52,12 +47,6 @@ const Project = props => {
     </div>
   );
 };
-
-
-
-/***********************
-  Projects Component
- ***********************/
 
 const Projects = props => {
   return (
@@ -107,9 +96,6 @@ const Projects = props => {
     </section>
   );
 };
-/***********************
-  Main Component
- ***********************/
 
 class App extends React.Component {
   state = {
@@ -181,26 +167,3 @@ class App extends React.Component {
 }
 
 export default App
-
-
-
-
-
-
-
-// function App() {
-//   return (
-//     <div >
-//     <Navi/>
-//    
-//    
-//       <Route exact path="/work" component={Work}/>
-//       <Route exact path="/about" component={About}/>
-//       <Route exact path="/contact" component={Contact}/>
-//       
-//   <Footer/>
-// </div>
-//   );
-// }
-
-// export default App;

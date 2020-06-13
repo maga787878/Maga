@@ -2,11 +2,6 @@ import React from 'react'
 import Maga from "../img/maga.jpg"
 import Travel from "../img/travelimg.jpg"
 
-
-/***********************
-  Project Component
- ***********************/
-
 const Project = props => {
   const tech = {
     sass: 'fab fa-sass',
@@ -45,12 +40,6 @@ const Project = props => {
     </div>
   );
 };
-
-
-
-/***********************
-  Projects Component
- ***********************/
 
 const Projects = props => {
   return (

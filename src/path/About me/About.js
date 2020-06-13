@@ -15,8 +15,7 @@ const About = props => {
         know a little more than my passion for tech. So here it goes.
         I'm a React Frontend web developer , I'm trying to do the best as a software.
          I'm doing miracles with react js.
-          
-            </p>
+          </p>
             <p>
               I really enjoy solving problems as well as making things pretty and easy to use. I
               can't stop learning new things; the more, the better. I also love photography, a hobby
